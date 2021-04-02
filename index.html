@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="http://example.com/favicon.png">
+    <!-- Include the stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Weather Checker</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <div class="bgimage">
+      <header>
+        <h1>Am I Hot or Not</h1>
+        <button type="submit" name="buttonreset" class="searchagain">Search Again</button>
+      </header>
+      <main>
+        <form class="searchForm" >
+          <input type="search" name="q" placeholder="City name" class="names">
+          <!-- <input type="text" placeholder="City name, Province" name="search-term" /> -->
+          <button type="submit" name="button" class="search">Search</button>
+        </form>
+
+        <!-- <p>test</p> -->
+        <div class="results">
+          <p>Here are your results:</p>
+
+        </div>
+      </main>
+    </div>
+    <footer>
+      <p>Weather data provided by <a href="https://home.openweathermap.org/" target="_blank"> Open Weather Map</a></p>
+    </footer>
+  </body>
+
+</html>
